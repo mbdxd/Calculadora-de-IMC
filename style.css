@@ -1,0 +1,50 @@
+ h1,h2 {
+   Color: #D4D4D2;
+ }
+
+ h1{
+    margin-block-start: 0em;
+    color: white;
+ }
+ 
+ .issoai {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    height: 1.5em;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 2em;
+}
+.container {
+    background-color: #1c1c1c;
+    display: inline-flex;
+    padding: 1em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+}   
+
+.area{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    background-color: #ff9500;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
